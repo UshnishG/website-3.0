@@ -35,14 +35,14 @@ export default function Contact() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(values),
       });
-      
+
       if (response.ok) {
         setStatusMessage("Thank you! Your message has been sent.");
         form.reset();
       } else {
         setStatusMessage("Oops! Something went wrong. Please try again.");
       }
-    } catch (error) {
+    } catch (_) {  // Fixed unused error variable
       setStatusMessage("An error occurred. Please try again later.");
     } finally {
       setIsSubmitting(false);
@@ -52,11 +52,26 @@ export default function Contact() {
   return (
     <section className="relative overflow-hidden bg-zinc-900 py-20">
       <div className="container relative z-10 mx-auto px-4">
-        <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} viewport={{ once: true }} className="mx-auto max-w-2xl text-center">
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }} 
+          whileInView={{ opacity: 1, y: 0 }} 
+          transition={{ duration: 0.8 }} 
+          viewport={{ once: true }} 
+          className="mx-auto max-w-2xl text-center"
+        >
           <h2 className="mb-4 text-3xl font-bold tracking-tighter sm:text-4xl">Get in Touch</h2>
-          <p className="mb-8 text-gray-400">Have any questions? Reach out and we'll get back to you soon.</p>
+          <p className="mb-8 text-gray-400">
+            Have any questions? Reach out and we&apos;ll get back to you soon.
+          </p>
         </motion.div>
-        <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.2 }} viewport={{ once: true }} className="mx-auto max-w-md">
+        
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }} 
+          whileInView={{ opacity: 1, y: 0 }} 
+          transition={{ duration: 0.8, delay: 0.2 }} 
+          viewport={{ once: true }} 
+          className="mx-auto max-w-md"
+        >
           <Form {...form}>
             <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
               <FormField control={form.control} name="name" render={({ field }) => (

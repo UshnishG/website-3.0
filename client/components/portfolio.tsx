@@ -4,36 +4,38 @@ import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 
-export default function Teams() {
-  const [teamData, setTeamData] = useState<any[]>([])
-  const [selectedDomain, setSelectedDomain] = useState("all")
+// Define the type for a team member
+interface TeamMember {
+  name: string
+  domain: string
+  coreMember: boolean
+  instagram: string
+  linkedin: string
+}
 
-  // This will store the unique domains extracted from teamData
+export default function Teams() {
+  const [teamData, setTeamData] = useState<TeamMember[]>([])
+  const [selectedDomain, setSelectedDomain] = useState<string>("all")
   const [domains, setDomains] = useState<string[]>([])
 
   useEffect(() => {
-    // Fetch the JSON data
     const fetchTeamData = async () => {
       const res = await fetch("/teamData.json") // Path to the JSON file
-      const data = await res.json()
+      const data: TeamMember[] = await res.json() // Type assertion
       setTeamData(data)
 
-      // Extract unique domains from the team data
-      const uniqueDomains: string[] = Array.from(
-        new Set(data.map((member: any) => member.domain))
-      )
-      setDomains(["all", ...uniqueDomains]) // Add "all" as the first option
+      // Extract unique domains
+      const uniqueDomains: string[] = Array.from(new Set(data.map((member) => member.domain)))
+      setDomains(["all", ...uniqueDomains])
     }
 
     fetchTeamData()
   }, [])
 
-  // Filter the team based on the selected domain
   const filteredTeam = teamData.filter(
     (member) => selectedDomain === "all" || member.domain === selectedDomain
   )
 
-  // Extract core members from the team data
   const coreMembers = teamData.filter((member) => member.coreMember)
 
   return (
@@ -54,14 +56,14 @@ export default function Teams() {
                           <img
                             src="/instagram-icon.svg"
                             alt="Instagram"
-                            className="h-6 w-6 text-white hover:text-pink-500 transition-colors duration-300"
+                            className="h-6 w-6 hover:text-pink-500 transition-colors duration-300"
                           />
                         </a>
                         <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
                           <img
                             src="/linkedin-icon.svg"
                             alt="LinkedIn"
-                            className="h-6 w-6 text-white hover:text-blue-500 transition-colors duration-300"
+                            className="h-6 w-6 hover:text-blue-500 transition-colors duration-300"
                           />
                         </a>
                       </div>
@@ -100,14 +102,14 @@ export default function Teams() {
                         <img
                           src="/instagram-icon.svg"
                           alt="Instagram"
-                          className="h-6 w-6 text-white hover:text-pink-500 transition-colors duration-300"
+                          className="h-6 w-6 hover:text-pink-500 transition-colors duration-300"
                         />
                       </a>
                       <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
                         <img
                           src="/linkedin-icon.svg"
                           alt="LinkedIn"
-                          className="h-6 w-6 text-white hover:text-blue-500 transition-colors duration-300"
+                          className="h-6 w-6 hover:text-blue-500 transition-colors duration-300"
                         />
                       </a>
                     </div>
