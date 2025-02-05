@@ -1,0 +1,53 @@
+[
+    {
+      "name": "Ritik Kumar",
+      "role": "Creative",
+      "domain": "Creatives",
+      "instagram": "https://instagram.com/ritik_kumar",
+      "linkedin": "https://linkedin.com/in/ritik_kumar",
+      "coreMember": true
+    },
+    {
+      "name": "Dhureen Gulati",
+      "role": "Creative",
+      "domain": "Creatives",
+      "instagram": "https://instagram.com/dhureen_gulati",
+      "linkedin": "https://linkedin.com/in/dhureen_gulati"
+    },
+    {
+      "name": "Ambati Praneet Rao",
+      "role": "Event Coordinator",
+      "domain": "Events",
+      "instagram": "https://instagram.com/ambati_praneet_rao",
+      "linkedin": "https://linkedin.com/in/ambati_praneet_rao"
+    },
+    {
+      "name": "Anushree Dixit",
+      "role": "Event Coordinator",
+      "domain": "Events",
+      "instagram": "https://instagram.com/anushree_dixit",
+      "linkedin": "https://linkedin.com/in/anushree_dixit"
+    },
+    {
+      "name": "Abhi Kharel",
+      "role": "Photographer",
+      "domain": "Photography",
+      "instagram": "https://instagram.com/abhi_kharel",
+      "linkedin": "https://linkedin.com/in/abhi_kharel"
+    },
+    {
+      "name": "Palchin Choudhary",
+      "role": "Publicity",
+      "domain": "Publicity",
+      "instagram": "https://instagram.com/palchin_choudhary",
+      "linkedin": "https://linkedin.com/in/palchin_choudhary"
+    },
+    {
+      "name": "Bhavay Kaushal",
+      "role": "Technical Lead",
+      "domain": "Technical",
+      "instagram": "https://instagram.com/bhavay_kaushal",
+      "linkedin": "https://linkedin.com/in/bhavay_kaushal"
+    }
+  ]
+  
