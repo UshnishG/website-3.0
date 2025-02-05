@@ -42,7 +42,7 @@ export default function Contact() {
       } else {
         setStatusMessage("Oops! Something went wrong. Please try again.");
       }
-    } catch (_) {  // Fixed unused error variable
+    } catch {
       setStatusMessage("An error occurred. Please try again later.");
     } finally {
       setIsSubmitting(false);
