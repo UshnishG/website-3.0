@@ -1,7 +1,8 @@
 import "./globals.css";
 import { Playfair_Display } from "next/font/google";
 import type React from "react";
-import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
+import { ThemeProvider } from "@/components/ThemeProvider";
+import ScrollToTopButton from "@/components/ScrollToTopButton"; // Import ScrollToTopButton
 
 const playfairDisplay = Playfair_Display({
   subsets: ["latin"],
@@ -16,7 +17,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${playfairDisplay.className} antialiased`}>
-        <AppRouterCacheProvider>{children}</AppRouterCacheProvider>
+        <ThemeProvider>
+          {children}
+          <ScrollToTopButton /> {/* Always available on all pages */}
+        </ThemeProvider>
       </body>
     </html>
   );

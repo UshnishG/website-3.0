@@ -32,6 +32,10 @@
 
     --radius: 0.5rem;
   }
+  html {
+    scroll-behavior: smooth;
+  }
+  
 
   .dark {
     --foreground: 0 0% 98%;
@@ -76,4 +80,17 @@
   .dark body {
     background: linear-gradient(135deg, #461e47, #3a0469);
   }
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll var(--animation-duration, 40s) linear infinite var(--animation-direction, forwards);
 }

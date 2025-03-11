@@ -9,12 +9,13 @@ export default function Page() {
   return (
     <main className="min-h-screen bg-black text-white">
       <Navbar />
-      <Hero />
-      <Gallery />
-      <Portfolio />
-      <Contact />
+      <div id="home"><Hero /></div>
+      <div id="gallery"><Gallery /></div>
+      <div id="portfolio"><Portfolio /></div>
+      <div id="contact"><Contact /></div>
       <Footer />
     </main>
-  )
+  );
 }
+
 
