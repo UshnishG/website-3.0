@@ -94,3 +94,17 @@
 .animate-scroll {
   animation: scroll var(--animation-duration, 40s) linear infinite var(--animation-direction, forwards);
 }
+
+/* Faster animation on mobile screens */
+@media (max-width: 640px) {
+  .animate-scroll {
+    animation-duration: calc(var(--animation-duration, 40s) * 0.7);
+  }
+}
+
+/* Slower animation on large screens */
+@media (min-width: 1280px) {
+  .animate-scroll {
+    animation-duration: calc(var(--animation-duration, 40s) * 1.2);
+  }
+}

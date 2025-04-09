@@ -1,9 +1,9 @@
-import Navbar from "@/components/navbar"
-import Hero from "@/components/hero"
-import Gallery from "@/components/gallery"
-import Portfolio from "@/components/portfolio"
-import Contact from "@/components/contact"
-import Footer from "@/components/footer"
+import Navbar from "@/components/navbar/page"
+import Hero from "@/components/hero/page"
+import Gallery from "@/components/gallery/page"
+import Portfolio from "@/components/portfolio/page"
+import Contact from "@/components/contact/page"
+import Footer from "@/components/footer/page"
 
 export default function Page() {
   return (

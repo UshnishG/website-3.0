@@ -1,53 +1,242 @@
 [
-    {
-      "name": "Ritik Kumar",
-      "role": "Creative",
-      "domain": "Creatives",
-      "instagram": "https://instagram.com/ritik_kumar",
-      "linkedin": "https://linkedin.com/in/ritik_kumar",
-      "coreMember": true
-    },
-    {
-      "name": "Dhureen Gulati",
-      "role": "Creative",
-      "domain": "Creatives",
-      "instagram": "https://instagram.com/dhureen_gulati",
-      "linkedin": "https://linkedin.com/in/dhureen_gulati"
-    },
-    {
-      "name": "Ambati Praneet Rao",
-      "role": "Event Coordinator",
-      "domain": "Events",
-      "instagram": "https://instagram.com/ambati_praneet_rao",
-      "linkedin": "https://linkedin.com/in/ambati_praneet_rao"
-    },
-    {
-      "name": "Anushree Dixit",
-      "role": "Event Coordinator",
-      "domain": "Events",
-      "instagram": "https://instagram.com/anushree_dixit",
-      "linkedin": "https://linkedin.com/in/anushree_dixit"
-    },
-    {
-      "name": "Abhi Kharel",
-      "role": "Photographer",
-      "domain": "Photography",
-      "instagram": "https://instagram.com/abhi_kharel",
-      "linkedin": "https://linkedin.com/in/abhi_kharel"
-    },
-    {
-      "name": "Palchin Choudhary",
-      "role": "Publicity",
-      "domain": "Publicity",
-      "instagram": "https://instagram.com/palchin_choudhary",
-      "linkedin": "https://linkedin.com/in/palchin_choudhary"
-    },
-    {
-      "name": "Bhavay Kaushal",
-      "role": "Technical Lead",
-      "domain": "Technical",
-      "instagram": "https://instagram.com/bhavay_kaushal",
-      "linkedin": "https://linkedin.com/in/bhavay_kaushal"
-    }
-  ]
-  
+  {
+    "name": "Piyush Raj",
+    "role": "Creative",
+    "domain": "Creatives",
+    "instagram": "https://www.instagram.com/piyushraj386/?igsh=MWNoN3dpeDRmdHd5MQ%3D%3D&utm_source=qr#",
+    "linkedin": "https://www.linkedin.com/in/-piyush-raj/",
+    "coreMember": false
+  },
+  {
+    "name": "S GUHAN RAJ",
+    "role": "Creative",
+    "domain": "Creatives",
+    "instagram": "https://www.instagram.com/gu.x.an/",
+    "linkedin": "https://www.linkedin.com/in/guhanraj/",
+    "coreMember": false
+  },
+  {
+    "name": "Debosmita Paul",
+    "role": "Operation",
+    "domain": "Operations",
+    "instagram": "https://www.instagram.com/deboloves/?hl=en",
+    "linkedin": "https://www.linkedin.com/in/debosmita-paul-746121222/",
+    "coreMember": false
+  },
+  {
+    "name": "Raunak Raj",
+    "role": "Public Relation",
+    "domain": "Public Relations",
+    "instagram": "https://www.instagram.com/_raunakraj__/profilecard/?igsh=MmhqejZ3bmc2dXBi",
+    "linkedin": "https://www.linkedin.com/in/raunak-raj-034403290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "coreMember": false
+  },
+  {
+    "name": "Naman",
+    "role": "Public Relation",
+    "domain": "Public Relations",
+    "instagram": "https://www.instagram.com/naman.drawzzz?igsh=MnpjcXZva3VuYXFy",
+    "linkedin": "https://www.linkedin.com/in/naman-8b35ba334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "coreMember": false
+  },
+  {
+    "name": "D Risha Jane",
+    "role": "Public Relation",
+    "domain": "Public Relations",
+    "instagram": "https://www.instagram.com/_.rishajane._?igsh=YXU5ajBrZGU1NXIy",
+    "linkedin": "https://www.linkedin.com/in/d-risha-jane-917579287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "coreMember": false
+  },
+  {
+    "name": "Kaushal kumar",
+    "role": "Public Relation",
+    "domain": "Public Relations",
+    "instagram": null,
+    "linkedin": "https://www.linkedin.com/in/kaushal-kumar-8385a321a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    "coreMember": false
+  },
+  {
+    "name": "Aayush Mishra ",
+    "role": "Public Relation",
+    "domain": "Public Relations",
+    "instagram": "https://www.instagram.com/iamaayushmishra/",
+    "linkedin": "https://www.linkedin.com/in/iamaayushmishra",
+    "coreMember": false
+  },
+  {
+    "name": "Atharv Dorle ",
+    "role": "Public Relation",
+    "domain": "Public Relations",
+    "instagram": "https://www.instagram.com/atharv_dorle07?igsh=Mm5zYnNndzF5bnAx",
+    "linkedin": "https://www.linkedin.com/in/atharv-dorle-6552602b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "coreMember": false
+  },
+  {
+    "name": "Yukesh Khadka",
+    "role": "Sponsorship",
+    "domain": "Sponsorships",
+    "instagram": "https://www.instagram.com/yukeshkhadka555/profilecard/?igsh=dmNnZXVqYWtkYWts",
+    "linkedin": "https://www.linkedin.com/yukeshkhadka/profile",
+    "coreMember": false
+  },
+  {
+    "name": "Myadam Varshini",
+    "role": "Technical",
+    "domain": "Technical",
+    "instagram": "https://www.instagram.com/varshinimyadam?igsh=MWFrb3JpM3p6bHo0MQ==",
+    "linkedin": "https://www.linkedin.com/in/varshini-myadam-b71641287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    "coreMember": false
+  },
+  {
+    "name": "Ayushi Dhelia ",
+    "role": "Technical",
+    "domain": "Technical",
+    "instagram": "https://www.instagram.com/_ayushidhelia/profilecard/?igsh=MTdvMnczdDh1eTBmNQ==",
+    "linkedin": "https://www.linkedin.com/in/ayushi-dhelia-442124250",
+    "coreMember": false
+  },
+  {
+    "name": "Sukhad Kaur",
+    "role": "Technical",
+    "domain": "Technical",
+    "instagram": "https://www.instagram.com/sukhi_k_14/profilecard/?igsh=aG93MzNjY2p2MzA1",
+    "linkedin": "https://www.linkedin.com/in/sukhadkaur?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "coreMember": false
+  },
+  {
+    "name": "Pragya Apoorva",
+    "role": "Technical",
+    "domain": "Technical",
+    "instagram": "https://www.instagram.com/apoorva.verse/",
+    "linkedin": "https://www.linkedin.com/in/pragyaapoorva/",
+    "coreMember": false
+  },
+  {
+    "name": "Keshav Gupta",
+    "role": "Technical",
+    "domain": "Technical",
+    "instagram": "https://www.instagram.com/__keshav__gupta__",
+    "linkedin": "https://www.linkedin.com/in/keshav-gupta-6b4b8b228?fbclid=PAY2xjawI9acFleHRuA2FlbQIxMAABpmEdm9P21oUX2qsqVfCd2ukEU8G0j8_n35ZlK_heqNCE5h3aHXXWhgsBdQ_aem_72mBNmuER3hNE8ehnTyM5g",
+    "coreMember": false
+  },
+  {
+    "name": "Shivansh Srivastava",
+    "role": "Technical",
+    "domain": "Technical",
+    "instagram": "https://www.instagram.com/shivansh_s30?igsh=NmI2M21udDZwNThn&utm_source=qr",
+    "linkedin": "http://linkedin.com/in/shivansh-srivastava-3a2a161b5",
+    "coreMember": false
+  },
+  {
+    "name": "Iraa Jayakumar",
+    "role": "Technical",
+    "domain": "Technical",
+    "instagram": "https://www.instagram.com/iraa_jayakumar?igsh=MTZyaDhzOWp6OXU1YQ==",
+    "linkedin": "www.linkedin.com/in/iraa-jayakumar",
+    "coreMember": false
+  },
+  {
+    "name": "T.Radha Krishna ",
+    "role": "Technical",
+    "domain": "Technical",
+    "instagram": "https://www.instagram.com/myself_raadha_krishna?igsh=MWpzaDhvbnhhZWZodw==&utm_source=ig_contact_invite",
+    "linkedin": "linkedin.com/in/radha-krishna-telaprolu-5757482b2",
+    "coreMember": false
+  },
+  {
+    "name": "Janav Gandhi",
+    "role": "Technical",
+    "domain": "Technical",
+    "instagram": "https://www.instagram.com/kurohiin/#",
+    "linkedin": "www.linkedin.com/in/janav-gandhi",
+    "coreMember": false
+  },
+  {
+    "name": "Shrivatsa S Kulkarni ",
+    "role": "Technical",
+    "domain": "Technical",
+    "instagram": "https://www.instagram.com/melody_enthusiast",
+    "linkedin": "https://www.linkedin.com/in/shrivatsa-s-kulkarni",
+    "coreMember": false
+  },
+  {
+    "name": "Rachita Dhiman ",
+    "role": "Technical",
+    "domain": "Technical",
+    "instagram": null,
+    "linkedin": "https://www.linkedin.com/in/rachita-dhiman-36b284331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "coreMember": false
+  },
+  {
+    "name": "Rupica Kalathuru ",
+    "role": "Technical",
+    "domain": "Technical",
+    "instagram": "https://www.instagram.com/its_rupica",
+    "linkedin": "https://linkedin.com/in/rupicakalathuru",
+    "coreMember": false
+  },
+  {
+    "name": "Vishal N R",
+    "role": "Technical",
+    "domain": "Technical",
+    "instagram": "https://www.instagram.com/pages_of_vishal/",
+    "linkedin": "http://linkedin.com/in/vishal-nr-2b152125b",
+    "coreMember": false
+  },
+  {
+    "name": "Sanskar ",
+    "role": "President",
+    "domain": "Core Team",
+    "instagram": "https://www.instagram.com/sanskar.2004",
+    "linkedin": "https://www.linkedin.com/in/sanskar-36754a159",
+    "coreMember": true
+  },
+  {
+    "name": "Bishanka Shrestha",
+    "role": "Vice President",
+    "domain": "Core Team",
+    "instagram": null,
+    "linkedin": "https://www.linkedin.com/in/bishankakrishnashrestha/",
+    "coreMember": true
+  },
+  {
+    "name": "Nishtha Dabas",
+    "role": "Secretary",
+    "domain": "Core Team",
+    "instagram": null,
+    "linkedin": null,
+    "coreMember": true
+  },
+  {
+    "name": "Satyam Chaudhary",
+    "role": "Vice Secretary",
+    "domain": "Core Team",
+    "instagram": null,
+    "linkedin": null,
+    "coreMember": true
+  },
+  {
+    "name": "Ritik Kumar",
+    "role": "Treasurer",
+    "domain": "Core Team",
+    "instagram": "https://www.instagram.com/_.r.i.t.i.k.__",
+    "linkedin": "https://www.linkedin.com/in/ritik-kumar-93bb6a289/",
+    "coreMember": true
+  },
+  {
+    "name": "Varun Ramesh",
+    "role": "Tech Head",
+    "domain": "Core Team",
+    "instagram": "https://www.instagram.com/varun__r___",
+    "linkedin": "https://www.linkedin.com/in/varun-ramesh-31aaa2204/",
+    "coreMember": true
+  },
+  {
+    "name": "Abignael Joseph",
+    "role": "Non-Tech Head",
+    "domain": "Core Team",
+    "instagram": null,
+    "linkedin": "https://www.linkedin.com/in/abignael-joseph-61a800251/",
+    "coreMember": true
+  }
+]

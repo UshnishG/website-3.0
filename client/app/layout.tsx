@@ -1,8 +1,8 @@
 import "./globals.css";
 import { Playfair_Display } from "next/font/google";
 import type React from "react";
-import { ThemeProvider } from "@/components/ThemeProvider";
-import ScrollToTopButton from "@/components/ScrollToTopButton"; // Import ScrollToTopButton
+import { ThemeProvider } from "@/components/ThemeProvider/page";
+import ScrollToTopButton from "@/components/ScrollToTopButton/page"; // Import ScrollToTopButton
 
 const playfairDisplay = Playfair_Display({
   subsets: ["latin"],
