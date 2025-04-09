@@ -1,7 +1,7 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+const nextConfig = {
+  reactStrictMode: true,
+  experimental: { appDir: true },
+  output: "standalone", // Ensures it works on Vercel
 };
 
-export default nextConfig;
+module.exports = nextConfig;
