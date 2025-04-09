@@ -1,6 +1,6 @@
 "use client";
 
-import { FaInstagram, FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdEmail, MdLocationOn, MdPhone } from "react-icons/md";
 import Link from "next/link";
 import Image from "next/image";

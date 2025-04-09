@@ -172,7 +172,7 @@ export default function PurpleStreaksAnimation() {
       };
     };
     
-    let streaks = initStreaks();
+    const streaks = initStreaks();
     let lastFrameTime = 0;
     
     // Frame rate limiter
